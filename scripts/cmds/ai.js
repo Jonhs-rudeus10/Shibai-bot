@@ -15,7 +15,7 @@ async function getAIResponse(input, userName, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = ` Salut moi c'est PAIN TENDO une Intelligence Artificielle créer par Shibai Otsutsuki mon maître comment puis-je vous aider aujourd'hui..?`;
+ let response = ` Salut toi 💁     je suis une ia crée par Ariel Ackerman          a quoi puis je t'aide ?`;
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -43,7 +43,7 @@ module.exports = {
  onStart: async function ({ api, event, args }) {
  const input = args.join(' ').trim();
  if (!input) {
- api.sendMessage("Salut moi c'est PAIN TENDO une Intelligence Artificielle créer par Shibai Otsutsuki mon maître comment puis-je vous aider aujourd'hui ?...😁", event.threadID, event.messageID);
+ api.sendMessage("Salut toi 💁     je suis une ia crée par Ariel Ackerman          a quoi puis je t'aide ?", event.threadID, event.messageID);
  return;
  }
 
@@ -54,7 +54,7 @@ module.exports = {
  }
  const userName = ret[event.senderID].name;
  const { response, messageID } = await getAIResponse(input, userName, event.senderID, event.messageID);
- api.sendMessage(`👨‍💻 SHIBAI OTSUTSUKI 👨‍💻 \n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━ Another Me 🙃`, event.threadID, messageID);
+ api.sendMessage(`ariel Ackerman 🙋\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━ Another Me 🙃`, event.threadID, messageID);
  });
  },
  onChat: async function ({ api, event, message }) {
@@ -68,7 +68,7 @@ module.exports = {
  }
  const userName = ret[event.senderID].name;
  const { response, messageID } = await getAIResponse(input, userName, event.senderID, message.messageID);
- message.reply(`👨‍💻 SHIBAI OTSUTSUKI 👨‍💻 \n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━ Another Me 🙃\n `, messageID);
+ message.reply(`ariel Ackerman \n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━ Another Me 🙃\n `, messageID);
 api.setMessageReaction("👀", event.messageID, () => {}, true);
 
  });
