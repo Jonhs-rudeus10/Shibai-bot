@@ -23,8 +23,8 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			leaveType1: "left",
-			leaveType2: "was kicked from",
+			leaveType1: "comme ça tu t'en va tu crois qu'on t'aimais 😒",
+			leaveType2: "derange au point qu'on l'a chassé du groupe 🤧 paix a son ame 🤧",
 			defaultLeaveMessage: "{userName} {type} the group"
 		}
 	},
@@ -45,7 +45,7 @@ module.exports = {
 				const userName = await usersData.getName(leftParticipantFbId);
 
 				// {userName}   : name of the user who left the group
-				// {type}       : type of the message (leave)
+				// {type}       : type of the message (comme ça tu t'en vas tu crois qu'on t'aimais 😒)
 				// {boxName}    : name of the box
 				// {threadName} : name of the box
 				// {time}       : time
