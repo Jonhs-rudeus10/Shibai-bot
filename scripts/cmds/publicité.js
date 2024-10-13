@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "publicité") return message.reply("voici l'uid de mon sempai ◈ ━━━━━━━━ ● ━━━━━━━━ ◈https://www.facebook.com/profile.php?id=61566739640941◈ ━━━━━━━━ ● ━━━━━━━━ ◈et son nom c'est◆━━━━━━━▣✦▣━━━━━━━━◆jonhs rudeus Smith◆━━━━━━━▣✦▣━━━━━━━━◆");
+	if (event.body && event.body.toLowerCase() == "boss") return message.reply("voici l'uid de mon sempai ◈ ━━━━━━━━ ● ━━━━━━━━ ◈https://www.facebook.com/profile.php?id=61566739640941◈ ━━━━━━━━ ● ━━━━━━━━ ◈et son nom c'est◆━━━━━━━▣✦▣━━━━━━━━◆jonhs rudeus Smith◆━━━━━━━▣✦▣━━━━━━━━◆");
 }
 };
