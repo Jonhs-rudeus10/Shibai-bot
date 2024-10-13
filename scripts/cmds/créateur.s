@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "qui es ton créateur") return message.reply("J'ai été créé par ce bro ◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆https://www.facebook.com/profile.php?id=61566739640941◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆");
+	if (event.body && event.body.toLowerCase() == "rudeus") return message.reply("J'ai été créé par ce bro ◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆https://www.facebook.com/profile.php?id=61566739640941◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆");
 }
 };
