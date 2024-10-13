@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ SHIBAI OTSUTSUKI  ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ 𝘼𝙍𝙄𝙀𝙇 𝘼𝘾𝙆𝙀𝙍𝙈𝘼𝙉 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n✰ SHIBAI OTSUTSUKI ✰\n╚═══════════╝`; // replace with your name 
+      msg += `╔═══════════╗\n✰ 𝐚𝐫𝐢𝐞𝐥 𝐚𝐜𝐤𝐞𝐫𝐦𝐚𝐧 ✰\n╚═══════════╝`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -59,8 +59,8 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\SHIBAI OTSUTSUKI fb: https://www.facebook.com/profile.php?id=61561751986955\n`;
-      msg += ` | SHIBAI OTSUTSUKI`; // Voici la liste de mes cmds.
+      msg += `\𝐣𝐨𝐧𝐡𝐬 𝐫𝐮𝐝𝐞𝐮𝐬  fb: https://www.facebook.com/profile.php?id=61566739640941\n`;
+      msg += ` | 𝐚𝐫𝐢𝐞𝐥 𝐚𝐜𝐤𝐞𝐫𝐦𝐚𝐧`; // Voici la liste de mes cmds.
 
       await message.reply(msg);
     } else {
