@@ -46,8 +46,8 @@ module.exports = {
 			friday: "Friday",
 			saturday: "Saturday",
 			sunday: "Sunday",
-			alreadyReceived: "You have already received the gift",
-			received: "Le grand Shibai Otsutsuki te donne %1 franc CFA et %2 exp"
+			alreadyReceived: "𝐭𝐮 𝐩𝐞𝐧𝐬𝐞𝐬 𝐯𝐨𝐥𝐞𝐫 𝐪𝐮𝐢 𝐦𝐨𝐫𝐭𝐞𝐥 🥱 𝐩𝐚𝐬𝐬𝐞𝐬 𝐝𝐞𝐦𝐚𝐢𝐧",
+			received: "𝐚𝐫𝐢𝐞𝐥 𝐭'𝐨𝐟𝐟𝐫𝐞%1𝐝𝐨𝐥𝐥𝐚𝐫𝐬 𝐠𝐫𝐚𝐭𝐮𝐢𝐭 👀 𝐞𝐭 %2 𝐦𝐚𝐢𝐧𝐭𝐞𝐧𝐚𝐧𝐭 𝐯𝐚 𝐭𝐫𝐚𝐯𝐚𝐢𝐥𝐥𝐞𝐫 👀"
 		}
 	},
 
