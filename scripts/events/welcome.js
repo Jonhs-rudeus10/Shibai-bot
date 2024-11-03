@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "Merci de m'avoir invité dans Vôtre groupe pour mes cmd tape: %1help et pour voir mon créateur tape rudeus %1 pour voir qui est mon créateur",
+			welcomeMessage: "Merci de m'avoir invité dans Vôtre groupe pour mes cmd tape: %1help et %𝐫𝐮𝐝𝐞𝐮𝐬 𝐩𝐨𝐮𝐫 𝐯𝐨𝐢𝐫 𝐦𝐨𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐮𝐫 ",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `Salut {userName} \Bienvenue dans le groupe : {boxName}\npasse une excellente journée et n'oublie pas d'etre poli 😁`
+			defaultWelcomeMessage: `Salut {userName} \Bienvenue dans le groupe : {boxName}\npasse une excellen𝐭𝐞 journée et n'oublie pas d'etre poli 😁`
 		}
 	},
 
