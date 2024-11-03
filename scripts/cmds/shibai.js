@@ -1,8 +1,8 @@
 module.exports = {
 	config: {
-			name: "Shibai",
+			name: "cc",
 			version: "1.0",
-			author: "Shibai Otsutsuki",
+			author: "rudeus",
 			countDown: 5,
 			role: 0,
 			shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "Shibai") return message.reply("Shibai Otsutsuki es trop intelligent 🤗");
+	if (event.body && event.body.toLowerCase() == "cc") return message.reply("𝐬𝐚𝐥𝐮𝐭 𝐬𝐢𝐦𝐩𝐥𝐞 𝐦𝐨𝐫𝐭𝐞𝐥                      𝐭𝐮 𝐯𝐞𝐮𝐱 𝐛𝐢𝐞𝐧 𝐥𝐢𝐤𝐞𝐫 𝐦𝐨𝐧 𝐩𝐫𝐨𝐟𝐢𝐥 ?");
 }
 };
