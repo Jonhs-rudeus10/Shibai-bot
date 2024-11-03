@@ -1,6 +1,6 @@
 module.exports = {
 	config: {
-			name: "👍",
+			name: "👀",
 			version: "1.0",
 			author: "Jaychris Garcia",
 			countDown: 5,
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "👍") return message.reply("Shibai Otsutsuki es trop intelligent 😇 ");
+	if (event.body && event.body.toLowerCase() == "👀") return message.reply("donc c'est comme ça que tu mattes les gens dans la douche 🙂 ");
 }
 };
