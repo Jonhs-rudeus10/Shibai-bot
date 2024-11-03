@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "On fait quoi face à Shibai Otsutsuki") return message.reply("🧎🏽‍♂️");
+	if (event.body && event.body.toLowerCase() == "🔫") return message.reply("🧎🏽‍♂️");
 }
 };
